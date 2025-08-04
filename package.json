@@ -1,0 +1,23 @@
+{
+  "name": "nash",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "nash": "bin/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -w"
+  },
+  "keywords": [],
+  "author": "yaxingson <3228891558@qq.com>",
+  "license": "MIT",
+  "packageManager": "pnpm@10.14.0",
+  "devDependencies": {
+    "@types/node": "^24.2.0",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "openai": "^5.11.0"
+  }
+}
